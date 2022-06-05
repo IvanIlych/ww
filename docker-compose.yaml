@@ -9,8 +9,6 @@ services:
       - MYSQL_ROOT_PASSWORD="Str0ngPwd!"
   database:
     image: percona:8.0.28-19
-    ports:
-      - 3306:3306
     environment:
       - MYSQL_ROOT_PASSWORD="Str0ngPwd!"
   nginx:
